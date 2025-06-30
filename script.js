@@ -1,6 +1,7 @@
 window.addEventListener('DOMContentLoaded', () => {
   const target = document.querySelector('#target');
   const scoreDisplay = document.querySelector('#score');
+  let score = 0;
 
   //的をランダムな位置に移動させる関数
   function moveTarget() {
