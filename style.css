@@ -1,0 +1,18 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: beige;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+#target {
+  width: 80px;
+  height: 80px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  cursor: pointer;
+  transition: all 0.2s;
+}
