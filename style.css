@@ -16,3 +16,8 @@ body {
   cursor: pointer;
   transition: all 0.2s;
 }
+
+#timer {
+  font-size: 24px;
+  margin-top: 10px;
+}
