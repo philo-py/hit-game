@@ -1,7 +1,7 @@
 window.addEventListener('DOMContentLoaded', () => {
   const target = document.querySelector('#target');
   const scoreDisplay = document.querySelector('#score');
-  const timerDisplay = document,querySelector('#timer');
+  const timerDisplay = document.querySelector('#timer');
   
   let score = 0;
   let timeLeft = 30;
