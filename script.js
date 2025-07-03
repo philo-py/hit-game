@@ -34,7 +34,7 @@ window.addEventListener('DOMContentLoaded', () => {
       if (timeLeft <= 0) {
         clearInterval(timerId);
         gameOver = true;
-        targe.style.display = 'none';
+        target.style.display = 'none';
         startResetBtn.textContent = 'スタート';
         alert(`終了！あなたのスコアは${score}点です！`);
       }
